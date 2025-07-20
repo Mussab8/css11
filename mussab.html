@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bakery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .top-bar {
+      font-size: 14px;
+      background: #fff;
+      padding: 10px 20px;
+      display: flex;
+      gap: 20px;
+      border-bottom: 1px solid #eee;
+    }
+    .navbar {
+      background: #f58634;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .logo span {
+      font-family: cursive;
+      margin-left: 8px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      padding: 8px 12px;
+    }
+    nav a.active {
+      background: #000;
+      color: white;
+      border-radius: 4px;
+    }
+    .icons {
+      display: flex;
+      gap: 15px;
+      font-size: 18px;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero-box {
+      background: white;
+      padding: 40px;
+      max-width: 500px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      border: 1px dashed #f58634;
+    }
+    .hero-box h1 {
+      font-size: 26px;
+      font-style: italic;
+      font-weight: bold;
+      color: #111;
+      margin-bottom: 25px;
+    }
+    .hero-box button {
+      background: #f58634;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <div>USD</div>
+    <div>ENG</div>
+    <div>Sign in</div>
+  </div>
+  <div class="navbar">
+    <div class="logo">🧁<span>cake</span></div>
+    <nav>
+      <a href="#" class="active">Home</a>
+      <a href="#">About</a>
+      <a href="#">Shop</a>
+      <a href="#">Pages</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="icons">🔍 ❤️ 🛒 <span style="font-size: 14px;">$0.00</span></div>
+  </div>
+  <div class="hero">
+    <div class="hero-box">
+      <h1>Making your life sweeter<br>one bite at a time!</h1>
+      <button>OUR CAKES</button>
+    </div>
+  </div>
+</body>
+</html>
